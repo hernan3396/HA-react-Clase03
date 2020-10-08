@@ -1,0 +1,56 @@
+.lista {
+  border: 1px solid black;
+  width: 500px;
+  background-color: beige;
+  margin: 50px;
+}
+
+.item {
+  border: 1px solid gray;
+  background-color: white;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 40px;
+}
+
+.nombre {
+  background-color: lightgray;
+  color: black;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 500;
+}
+
+.seleccionador {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.vacio {
+  background-color: gray;
+  width: 100%;
+  text-align: center;
+}
+
+.error {
+  text-align: center;
+  background-color: orangered;
+  width: 100%;
+  color: white;
+  font-weight: 500;
+}
+
+.succes {
+  text-align: center;
+  background-color: green;
+  width: 100%;
+  color: white;
+  font-weight: 500;
+}

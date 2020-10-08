@@ -1,0 +1,5 @@
+pasar este de clases a hooks
+
+siempre que hay algo asyncrono y hay que cambiarle el estado hay que revisar que siga montado
+
+la funcion del return es "la funcion de limpieza"
